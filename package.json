@@ -7,23 +7,22 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.17.1"  // Update to a recent version
   },
   "engines": {
-    "node": "4.0.0"
+    "node": ">=16.0.0"    // Match Dockerfile's Node.js 16
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/Dhanashree-jadhav/node-js-sample"
   },
   "keywords": [
     "node",
-    "heroku",
     "express"
   ],
   "author": "Mark Pundsack",
   "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+    "Zeke Sikelianos <zeke.sikelianos@gmail.com> (http://zeke.sikelianos.com/)"
   ],
   "license": "MIT"
 }
