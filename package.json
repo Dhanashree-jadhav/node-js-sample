@@ -7,10 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"  // Update to a recent version
+    "express": "^4.17.1"  
   },
   "engines": {
-    "node": ">=16.0.0"    // Match Dockerfile's Node.js 16
+    "node": ">=16.0.0"    
   },
   "repository": {
     "type": "git",
