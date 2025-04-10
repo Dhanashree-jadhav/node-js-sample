@@ -21,3 +21,5 @@ jobs:
 
       - name: Push Docker image to Docker Hub
         run: docker push ${{ secrets.DOCKER_USERNAME }}/node-js-sample:latest
+
+# Retry to update Docker Hub image on 2025-04-10
